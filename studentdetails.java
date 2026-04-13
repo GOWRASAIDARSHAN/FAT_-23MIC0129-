@@ -16,5 +16,12 @@ public class studentdetails {
 		System.out.println("Number of classes missed: "+c);
 		System.out.println("Attendance Percentage: "+e);
 		System.out.println("Attendance Build Successful");
+		if(e>=75) {
+			System.out.println("Permitted for FAT Exams");
+		}
+		else {
+			System.out.println("Debarred for FAT Exams");
+		}
+		System.out.println("DATE: 13/04/2026");
 	}
 }
